@@ -1,1 +1,0 @@
-{"version":3,"sources":["style.css"],"names":[],"mappings":"AAAA,OACI,wBACJ,CAFA,MAEI,WACJ,CAEA,KACI,wBACJ","file":"main.be80c2b3.chunk.css","sourcesContent":[".main {\r\n    /* display: flex; */\r\n    margin: auto;\r\n}\r\n\r\nbody {\r\n    background-color: rgb(180, 50, 50);\r\n}"]}

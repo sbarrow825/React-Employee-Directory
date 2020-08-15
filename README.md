@@ -1,53 +1,69 @@
-# Unit 19 React Homework: Employee Directory
+# React Player Roster
 
-## Overview
+## Deployed Link
 
-For this assignment, you'll create a employee directory with React. This assignment will require you to break up your application's UI into components, manage component state, and respond to user events.
+To use the app, navigate to the deployed link on Github Pages found [here](https://sbarrow825.github.io/React-Employee-Directory/)
 
-## User Story
+## Description
 
-* As a user, I want to be able to view my entire employee directory at once so that I have quick access to their information.
+![picture of application](Assets/overview.png)
 
-## Business Context
+A React based application that allows you to see the most successful professional Dota 2 players. Also allows you to sort the table of players by earnings and role.
 
-An employee or manager would benefit greatly from being able to view non-sensitive data about other employees. It would be particularly helpful to be able to filter employees by name.
+## Table of Contents
 
-## Acceptance Criteria
+* [Installation](#Installation)
+* [Usage](#Usage)
+* [License](#License)
+* [Dependencies](#Dependencies)
+* [Questions](#Questions)
 
-Given a table of random users, when the user loads the page, a table of employees should render. 
+## Installation
 
-The user should be able to:
+To install this repo for personal use, use ```git clone``` followed by the link on the green "Code" button on this repository.
 
-  * Sort the table by at least one category
+Upon cloning the repo, make sure to install the neccesary dependencies using
 
-  * Filter the users by at least one property.
+```npm install```
 
-## Commit Early and Often
+Then use the following command to run the React application on your localhost
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+```npm run start```
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+## Usage
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+To sort players by their amount of earnings, simply click the respective "Sort by Earnings Low to High" and "Sort by Earnings High to Low" buttons.
 
-Follow these guidelines for committing:
+![sort all players](Assets/sortAll.gif)
 
-* Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+<br>
 
-* Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+To only see players who play a specific role, click the respective button.
 
-* Don't commit half done work, for the sake of your collaborators (and your future self!)
+![filter roles](Assets/filterRoles.gif)
 
-* Test your application before you commit to ensure functionality at every step in the development process
+<br>
 
-We would like you to have well over 200 commits by graduation, so commit early and often!
+The two features above can be combined, allowing you to both filter the players by a given role then sort the players of that role by their total earnings.
+
+![filter then sort](Assets/filterAndSort.gif)
 
 
-## Submission on BCS
+## License
 
-You are required to submit the following:
+![MIT License](https://img.shields.io/npm/l/inquirer)
 
-* the URL to the deployed application
+## Dependencies
 
-* the URL to the Github repository
+List of dependency statuses for all packages used in this project
+
+* React ![](https://img.shields.io/librariesio/release/npm/react)
+* gh-pages ![](https://img.shields.io/librariesio/release/npm/gh-pages)
+
+
+## Questions
+
+![Github Profile Picture](https://github.com/sbarrow825.png)
+
+For any questions concerning this project, please feel free to email me at sbarrow825@berkeley.edu
 

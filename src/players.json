@@ -1,0 +1,211 @@
+[
+    {
+        "id": 1,
+        "name": "Johan Sundstein",
+        "playerID": "N0tail",
+        "position": "Hard Support",
+        "team": "OG",
+        "earnings": "6915222.80"
+    },
+    {
+        "id": 2,
+        "name": "Jesse Vainikka",
+        "playerID": "JerAx",
+        "position": "Soft Support",
+        "team": "OG",
+        "earnings": "6470548.78"
+    },
+    {
+        "id": 3,
+        "name": "Anathan Pham",
+        "playerID": "ana",
+        "position": "Carry",
+        "team": "OG",
+        "earnings": "6000411.96"
+    },
+    {
+        "id": 4,
+        "name": "Sébastien Debs",
+        "playerID": "Ceb",
+        "position": "Offlane",
+        "team": "OG",
+        "earnings": "5505197.41"
+    },
+    {
+        "id": 5,
+        "name": "Topias Taavitsainen",
+        "playerID": "Topson",
+        "position": "Mid",
+        "team": "OG",
+        "earnings": "5423502.57"
+    },
+    {
+        "id": 6,
+        "name": "Kuro Takhasomi",
+        "playerID": "KuroKy",
+        "position": "Hard Support",
+        "team": "Liquid",
+        "earnings": "5190106.15"
+    },
+    {
+        "id": 7,
+        "name": "Amer Al-Barkawi",
+        "playerID": "Miracle-",
+        "position": "Carry",
+        "team": "Liquid",
+        "earnings": "4777911.48"
+    },
+    {
+        "id": 8,
+        "name": "Ivan Ivanov",
+        "playerID": "MinD_ContRol",
+        "position": "Offlane",
+        "team": "Liquid",
+        "earnings": "4558985.96"
+    },
+    {
+        "id": 9,
+        "name": "Maroun Merhej",
+        "playerID": "GH",
+        "position": "Soft Support",
+        "team": "Liquid",
+        "earnings": "4171919.04"
+    },
+    {
+        "id": 10,
+        "name": "Lasse Urpalainen",
+        "playerID": "Matumbaman",
+        "position": "Carry",
+        "team": "Secret",
+        "earnings": "3700194.44"
+    },
+    {
+        "id": 11,
+        "name": "Sumail Hassan",
+        "playerID": "SimaiL",
+        "position": "Carry",
+        "team": "OG",
+        "earnings": "3608317.34"
+    },
+
+    {
+        "id": 12,
+        "name": "Saahil Arora",
+        "playerID": "UNiVeRsE",
+        "position": "Offlane",
+        "team": "EG",
+        "earnings": "3057237.67"
+    },
+    {
+        "id": 13,
+        "name": "Peter Dager",
+        "playerID": "ppd",
+        "position": "Hard Support",
+        "team": "EG",
+        "earnings": "3021731.36"
+    },
+    {
+        "id": 14,
+        "name": "Lu Yao",
+        "playerID": "Somnus`M",
+        "position": "Mid",
+        "team": "LGD",
+        "earnings": "2977641.84"
+    },
+    {
+        "id": 15,
+        "name": "Xu Linsen",
+        "playerID": "fy",
+        "position": "Soft Support",
+        "team": "LDG",
+        "earnings": "2887350.04"
+    },
+    {
+        "id": 16,
+        "name": "Clement Ivanov",
+        "playerID": "Puppey",
+        "position": "Hard Support",
+        "team": "Secret",
+        "earnings": "2799899.63"
+    },
+    {
+        "id": 17,
+        "name": "Clinton Loomis",
+        "playerID": "Fear",
+        "position": "Hard Support",
+        "team": "business associates",
+        "earnings": "2551973.19"
+    },
+    {
+        "id": 18,
+        "name": "Gustav Magnusson",
+        "playerID": "s4",
+        "position": "Offlane",
+        "team": "Alliance",
+        "earnings": "2532330.51"
+    },
+    {
+        "id": 19,
+        "name": "Ludwig Wåhlberg",
+        "playerID": "Zai",
+        "position": "Offlane",
+        "team": "Secret",
+        "earnings": "2459054.42"
+    },
+    {
+        "id": 20,
+        "name": "Tal Aizik",
+        "playerID": "Fly",
+        "position": "Hard Support",
+        "team": "EG",
+        "earnings": "2394570.81"
+    },
+    {
+        "id": 21,
+        "name": "Aliwi Omar",
+        "playerID": "w33",
+        "position": "Mid",
+        "team": "Liquid",
+        "earnings": "2255493.38"
+    },
+    {
+        "id": 22,
+        "name": "Artour Babaev",
+        "playerID": "Arteezy",
+        "position": "Carry",
+        "team": "EG",
+        "earnings": "2253053.21"
+    },
+    {
+        "id": 23,
+        "name": "Wang Chunyu",
+        "playerID": "Ame",
+        "position": "Carry",
+        "team": "CDEC",
+        "earnings": "2224274.04"
+    },
+    {
+        "id": 24,
+        "name": "Zhang Yiping",
+        "playerID": "y`",
+        "position": "Hard Support",
+        "team": "EHOME",
+        "earnings": "2062108.48"
+    },
+    {
+        "id": 25,
+        "name": "Zhang Ruida",
+        "playerID": "Faith_bian",
+        "position": "Offlane",
+        "team": "EHOME",
+        "earnings": "2040548.06"
+    },
+    {
+        "id": 26,
+        "name": "Kurtis Ling",
+        "playerID": "Aui_2000",
+        "position": "Hard Support",
+        "team": "CR4ZY",
+        "earnings": "2005194.44"
+    }
+]

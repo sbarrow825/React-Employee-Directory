@@ -34,23 +34,55 @@ function App() {
           playersToDisplay: sorted
         }
       case FILTER_CARRY:
-        // do something
-        break
+        var carryPlayers = state.allPlayers.filter(player => {
+          return player.position === action.position
+        })
+
+        return {
+          ...state,
+          playersToDisplay: carryPlayers
+        }
       case FILTER_MIDLANE:
-        // do something
-        break
+        var midPlayers = state.allPlayers.filter(player => {
+          return player.position === action.position
+        })
+
+        return {
+          ...state,
+          playersToDisplay: midPlayers
+        }
       case FILTER_OFFLANE:
-        // do something
-        break
+        var offlanePlayers = state.allPlayers.filter(player => {
+          return player.position === action.position
+        })
+
+        return {
+          ...state,
+          playersToDisplay: offlanePlayers
+        }
       case FILTER_SOFT_SUPPORT:
-        // do something
-        break
+        var softSupportPlayers = state.allPlayers.filter(player => {
+          return player.position === action.position
+        })
+
+        return {
+          ...state,
+          playersToDisplay: softSupportPlayers
+        }
       case FILTER_HARD_SUPPORT:
-        // do something
-        break
+        var hardSupportPlayers = state.allPlayers.filter(player => {
+          return player.position === action.position
+        })
+
+        return {
+          ...state,
+          playersToDisplay: hardSupportPlayers
+        }
       case ALL_PLAYERS:
-        // do something
-        break
+        return {
+          ...state,
+          playersToDisplay: players
+        }
     }
   }, {
     allPlayers: players,

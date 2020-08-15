@@ -2,7 +2,7 @@ import React from 'react'
 
 function Table(props) {
     return (
-        <div className="container table">
+        <div className="container table" style={{alignItems: "center", display: "flex", justifyContent: "center"}}>
             <table>
                 <thead>
                     <tr>

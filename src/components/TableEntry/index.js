@@ -8,7 +8,7 @@ function TableEntry({ player }) {
             <td>{player.name}</td>
             <td>{player.position}</td>
             <td>{player.team}</td>
-            <td>{player.earnings}</td>
+            <td>${player.earnings}</td>
         </tr>
     )
 }

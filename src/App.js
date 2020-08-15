@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import SortButtons from "./components/SortButtons";
 import Table from "./components/Table";
 import TableEntry from "./components/TableEntry";
+import style from "./style.css"
 import {
   FILTER_CARRY,
   FILTER_HARD_SUPPORT,
@@ -47,14 +48,18 @@ function App() {
   })
 
   return (
-    <div className="container">
+    <div className="container main">
       <Header />
       {/* <SortButtons reducer={[players, dispatch]} /> */}
-      <Table>
-        {allPlayers.playersToDisplay.map(player => {
-          return <TableEntry player={player} key={player.id} />
-        })}
-      </Table>
+      <div className="row">
+        <div className="col-md-12">
+          <Table>
+            {allPlayers.playersToDisplay.map(player => {
+              return <TableEntry player={player} key={player.id} />
+            })}
+          </Table>
+        </div>
+      </div>
     </div>
   )
 }

@@ -4,8 +4,5 @@
 }
 
 body {
-    /* background-color: rgba(44, 0, 0, 0.363); */
-    background-image: url("./dota2background.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: rgb(180, 50, 50);
 }

@@ -8,11 +8,12 @@ export default function sortByTotalEarnings({ reducer }) {
     return (
         <div className="container">
             <div className="row">
-                <div className="col-md-12">
-                    <button onClick={() => dispatch({ type: SORT_BY_TOTAL_EARNINGS_DESCENDING })}>Sort by Earnings Low to High</button>
-                    <button onClick={() => dispatch({ type: SORT_BY_TOTAL_EARNINGS_ASCENDING })}>Sort by Earnings High to Low</button>
+                <div className="col-md-12 d-flex justify-content-around" style={{alignItems: "center", display: "flex", justifyContent: "center"}}>
+                    <button className="btn btn-dark" onClick={() => dispatch({ type: SORT_BY_TOTAL_EARNINGS_DESCENDING })}>Sort by Earnings Low to High</button>
+                    <button className="btn btn-dark" onClick={() => dispatch({ type: SORT_BY_TOTAL_EARNINGS_ASCENDING })}>Sort by Earnings High to Low</button>
                 </div>
             </div>
+            <br></br>
         </div>
     )
 }

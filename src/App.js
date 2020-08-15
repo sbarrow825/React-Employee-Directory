@@ -94,6 +94,7 @@ function App() {
       <Header />
       <SortButtons reducer={[players, dispatch]} />
       <FilterButtons reducer={[players, dispatch]} />
+      <br></br>
       <div className="row">
         <div className="col-md-12">
           <Table>

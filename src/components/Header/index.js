@@ -11,7 +11,7 @@ function Header() {
             <br></br>
             <div className="row">
                 <div className="col-md-12" style={{alignItems: "center", display: "flex", justifyContent: "center"}}>
-                    <h1>Most Successful Dota 2 Players by Earnings</h1>
+                    <h1>Most Successful Dota 2 Players</h1>
                 </div>
             </div>
             <br></br>

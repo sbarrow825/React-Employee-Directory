@@ -1,8 +1,8 @@
 {
   "name": "my-app",
-  "homepage": "https://github.com/sbarrow825/React-Employee-Directory",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://github.com/sbarrow825/React-Employee-Directory",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
